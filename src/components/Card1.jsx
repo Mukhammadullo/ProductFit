@@ -2,8 +2,8 @@ import React from 'react'
 
 const Card1 = ({ img, title }) => {
     return (
-        <div className='w-[18%] rounded-[12px] shadow-2xl h-[50vh] border-red-500 border-solid border-[2px]'>
-            <div className='w-[240px] h-[240px] mt-[-48px] ml-[10px] rounded-[120px] bg-[#1E959B] flex justify-center items-center'>
+        <div className='sm:w-[23%] rounded-[12px] shadow-2xl sm:h-[50vh] mobile:mt-[80px] sm:mb-[0] '>
+            <div className='w-[200px] h-[200px] mt-[-48px] ml-[50px] rounded-[100px] bg-[#1E959B] flex justify-center items-center'>
                 <img src={img} />
             </div>
             <div className='flex flex-col justify-center items-center'>

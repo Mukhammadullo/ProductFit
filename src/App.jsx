@@ -186,12 +186,15 @@ function App() {
 
 
       {/* section9 */}
-      <section>
+      <section className='m-[5%]'>
 
         {/* row1 */}
         <div >
-          <div className='w-[100%] h-[10vh] bg-[#1E959B]'>
+          <div className=' sm:flex justify-between'>
             <Card1 img={'src/assets/Group.png'} title={'Ecommerce'} />
+            <Card1 img={'src/assets/Out line.png'} title={'Ecommerce'} />
+            <Card1 img={'src/assets/Group 5.png'} title={'Ecommerce'} />
+            <Card1 img={'src/assets/Outline.png'} title={'Ecommerce'} />
           </div>
         </div>
 
