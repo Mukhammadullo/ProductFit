@@ -53,7 +53,7 @@ function App() {
       </section>
 
       {/* section5 */}
-      <section className='m-[5%]  mobile:flex-colm sm:flex justify-between'>
+      <section className='m-[5%]   sm:flex justify-between'>
         <div className='shadow-xl rounded-[14px]  mobile:w-[90%] mobile:h-[50vh] w-[18%] h-[35vh] flex flex-col justify-center items-center'>
           <img src='src/assets/интервью.svg' />
           <p>Проведём интервью</p>
@@ -76,7 +76,26 @@ function App() {
         </div>
       </section>
 
-      
+
+      {/* section6 */}
+      <section className='m-[8%] sm:flex sm:justify-between  items-center'>
+
+        {/* left */}
+        <div>
+          <img src='src/assets/image 2.png' />
+        </div>
+
+        {/* right */}
+        <div>
+          <h1 className='text-[#1E959B] font-bold text-[50px]'>Проведём интервью<br />
+            и подготовим проект<br />
+            к разработке</h1>
+          <p>Проведём продуктовое интервью онлайн<br />
+            и дадим рекомендации по подготовке проекта<br />
+            к разработке.Это бесплатно.</p>
+          <button className='mobile:w-[220px] mobile:h-[12vh] sm:w-[200px] h-[8vh] bg-[#F05670] rounded-[12px] m-[10px] text-[white] p-[5px] shadow-xl'>Записаться на интервью</button>
+        </div>
+      </section>
 
     </>
   )
