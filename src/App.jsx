@@ -117,7 +117,7 @@ function App() {
           <div className='shadow-xl rounded-[12px] p-[5px] sm:w-[30%]'>
             <img src='src/assets/image 20.png' />
             <h1 className='text-[#1E959B] font-bold text-center m-[10px]'>Ural Airlaness</h1>
-            <p>Кроссплатформенное приложение <br/>
+            <p className='m-[8px]'>Кроссплатформенное приложение <br/>
               под Android и iOS разработано на <br/>
               React Native(Python)</p>
           </div>
@@ -125,7 +125,7 @@ function App() {
           <div className='shadow-xl rounded-[12px] p-[5px] sm:w-[30%]'>
             <img src='src/assets/image 21.png' />
             <h1 className='text-[#1E959B] font-bold text-center m-[10px]'>OpenGift</h1>
-            <p>Кроссплатформенное приложение <br/>
+            <p className='m-[8px]'>Кроссплатформенное приложение <br/>
               под Android и iOS разработано на <br/>
               React Native(Python)</p>
           </div>
@@ -146,7 +146,7 @@ function App() {
           <div className='shadow-xl rounded-[12px] p-[5px] sm:w-[30%]'>
             <img src='src/assets/image 23.png' />
             <h1 className='text-[#1E959B] font-bold text-center m-[10px]'>Коалиция</h1>
-            <p>Кроссплатформенное приложение <br/>
+            <p className='m-[8px]'>Кроссплатформенное приложение <br/>
               под Android и iOS разработано на <br/>
               React Native(Python)</p>
           </div>
@@ -154,7 +154,7 @@ function App() {
           <div className='shadow-xl rounded-[12px] p-[5px] sm:w-[30%]'>
             <img src='src/assets/image 24.png' />
             <h1 className='text-[#1E959B] font-bold text-center m-[10px]'>Rubetek</h1>
-            <p>Кроссплатформенное приложение <br/>
+            <p className='m-[8px]'>Кроссплатформенное приложение <br/>
               под Android и iOS разработано на <br/>
               React Native(Python)</p>
           </div>
