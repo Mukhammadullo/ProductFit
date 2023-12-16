@@ -1,4 +1,5 @@
 import './App.css'
+import Card1 from './components/Card1'
 
 function App() {
 
@@ -183,6 +184,20 @@ function App() {
       </section>
 
 
+
+      {/* section9 */}
+      <section>
+
+        {/* row1 */}
+        <div >
+          <div className='w-[100%] h-[10vh] bg-[#1E959B]'>
+            <Card1 img={'src/assets/Group.png'} title={'Ecommerce'} />
+          </div>
+        </div>
+
+        {/* row2 */}
+
+      </section>
 
     </>
   )
