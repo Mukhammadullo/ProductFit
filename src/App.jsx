@@ -213,8 +213,18 @@ function App() {
 
 
       {/* section9 */}
-      <section>
-        
+      <section className='sm:flex sm:justify-center items-center m-[8%] '>
+
+        {/* left */}
+        <div>
+          <img src='src/assets/Group (1).png' />
+        </div>
+
+        {/* right */}
+        <div>
+          <button className='w-[250px] h-[60px] bg-[#F05670] rounded-[12px] text-[18px]  text-[white]'>ОСТАВИТЬ ЗАЯВКУ</button>
+        </div>
+
       </section>
 
 
