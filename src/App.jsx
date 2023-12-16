@@ -97,6 +97,13 @@ function App() {
         </div>
       </section>
 
+      {/* section7 */}
+
+      <section>
+        {/* section7_title */}
+        <h1 className='text-[#1E959B] font-bold text-center'>ПРОЕКТЫ командЫ PRODUCTFIT</h1>
+      </section>
+
     </>
   )
 }
