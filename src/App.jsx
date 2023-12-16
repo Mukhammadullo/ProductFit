@@ -105,28 +105,28 @@ function App() {
 
         {/* row1 */}
         <div className='sm:flex justify-between'>
-          
+
           <div className='shadow-xl rounded-[12px] p-[5px] sm:w-[30%]'>
             <img src='src/assets/image 19.png' />
             <h1 className='text-[#1E959B] font-bold text-center m-[10px]'>Cabify</h1>
-            <p className='m-[8px]'>Кроссплатформенное приложение <br/>
-              под Android и iOS разработано на <br/>
+            <p className='m-[8px]'>Кроссплатформенное приложение <br />
+              под Android и iOS разработано на <br />
               React Native(Python)</p>
           </div>
-         
+
           <div className='shadow-xl rounded-[12px] p-[5px] sm:w-[30%]'>
             <img src='src/assets/image 20.png' />
             <h1 className='text-[#1E959B] font-bold text-center m-[10px]'>Ural Airlaness</h1>
-            <p className='m-[8px]'>Кроссплатформенное приложение <br/>
-              под Android и iOS разработано на <br/>
+            <p className='m-[8px]'>Кроссплатформенное приложение <br />
+              под Android и iOS разработано на <br />
               React Native(Python)</p>
           </div>
-         
+
           <div className='shadow-xl rounded-[12px] p-[5px] sm:w-[30%]'>
             <img src='src/assets/image 21.png' />
             <h1 className='text-[#1E959B] font-bold text-center m-[10px]'>OpenGift</h1>
-            <p className='m-[8px]'>Кроссплатформенное приложение <br/>
-              под Android и iOS разработано на <br/>
+            <p className='m-[8px]'>Кроссплатформенное приложение <br />
+              под Android и iOS разработано на <br />
               React Native(Python)</p>
           </div>
 
@@ -134,34 +134,36 @@ function App() {
 
         {/* row2 */}
         <div className='sm:flex justify-between mt-[20px]'>
-          
+
           <div className='shadow-xl rounded-[12px] p-[5px] sm:w-[30%]'>
             <img src='src/assets/image 22.png' />
             <h1 className='text-[#1E959B] font-bold text-center m-[10px]'>PlanDi</h1>
-            <p className='m-[8px]'>Кроссплатформенное приложение <br/>
-              под Android и iOS разработано на <br/>
+            <p className='m-[8px]'>Кроссплатформенное приложение <br />
+              под Android и iOS разработано на <br />
               React Native(Python)</p>
           </div>
-         
+
           <div className='shadow-xl rounded-[12px] p-[5px] sm:w-[30%]'>
             <img src='src/assets/image 23.png' />
             <h1 className='text-[#1E959B] font-bold text-center m-[10px]'>Коалиция</h1>
-            <p className='m-[8px]'>Кроссплатформенное приложение <br/>
-              под Android и iOS разработано на <br/>
+            <p className='m-[8px]'>Кроссплатформенное приложение <br />
+              под Android и iOS разработано на <br />
               React Native(Python)</p>
           </div>
-         
+
           <div className='shadow-xl rounded-[12px] p-[5px] sm:w-[30%]'>
             <img src='src/assets/image 24.png' />
             <h1 className='text-[#1E959B] font-bold text-center m-[10px]'>Rubetek</h1>
-            <p className='m-[8px]'>Кроссплатформенное приложение <br/>
-              под Android и iOS разработано на <br/>
+            <p className='m-[8px]'>Кроссплатформенное приложение <br />
+              под Android и iOS разработано на <br />
               React Native(Python)</p>
           </div>
 
         </div>
 
-
+        <div className='flex justify-center'>
+          <button className='w-[250px] h-[10vh] mt-[30px]  border-solid  border-[#1E959B] border-[2px] rounded-[12px]  text-[#1E959B]'>Все проекты</button>
+        </div>
       </section>
 
     </>
