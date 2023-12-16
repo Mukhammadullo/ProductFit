@@ -162,9 +162,11 @@ function App() {
         </div>
 
         <div className='flex justify-center'>
-          <button className='w-[250px] h-[10vh] mt-[30px]  border-solid  border-[#1E959B] border-[2px] rounded-[12px]  text-[#1E959B]'>Все проекты</button>
+          <button className='w-[250px]  h-[10vh] mt-[30px]  border-solid  border-[#1E959B] border-[2px] rounded-[12px]  text-[#1E959B]'>Все проекты</button>
         </div>
       </section>
+
+
 
     </>
   )
