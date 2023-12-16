@@ -47,6 +47,35 @@ function App() {
         </div>
       </section>
 
+      {/* section4 */}
+      <section>
+        <img src='src/assets/2.jpg ' className='w-[100%] h-[10vh]' />
+      </section>
+
+      {/* section5 */}
+      <section className='flex m-[5%] justify-between mobile:flex-col'>
+        <div className='shadow-xl rounded-[14px]  mobile:w-[90%] mobile:h-[50vh] w-[18%] h-[35vh] flex flex-col justify-center items-center'>
+          <img src='src/assets/интервью.svg' />
+          <p>Проведём интервью</p>
+        </div>
+        <div className='shadow-xl rounded-[14px]  mobile:w-[90%] mobile:h-[50vh] w-[18%] h-[35vh] flex flex-col justify-center items-center'>
+          <img src='src/assets/план.svg' />
+          <p >Составим план</p>
+        </div>
+        <div className='shadow-xl rounded-[14px]  mobile:w-[90%] mobile:h-[50vh] w-[18%] h-[35vh] flex flex-col justify-center items-center'>
+          <img src='src/assets/Команда.svg' />
+          <p>Соберём команду</p>
+        </div>
+        <div className='shadow-xl rounded-[14px]  mobile:w-[90%] mobile:h-[50vh] w-[18%] h-[35vh] flex flex-col justify-center items-center'>
+          <img src='src/assets/продукт.svg' />
+          <p>Разработаем продукт</p>
+        </div>
+        <div className='shadow-xl rounded-[4px]  mobile:w-[90%] mobile:h-[50vh] w-[18%] h-[35vh] flex flex-col justify-center items-center'>
+          <img src='src/assets/метрика.svg' />
+          <p>Улучшим метрики</p>
+        </div>
+      </section>
+
     </>
   )
 }
