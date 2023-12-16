@@ -102,6 +102,17 @@ function App() {
       <section>
         {/* section7_title */}
         <h1 className='text-[#1E959B] font-bold text-center'>ПРОЕКТЫ командЫ PRODUCTFIT</h1>
+
+        {/* row1 */}
+        <div>
+          <div>
+            <img src='src/assets/image 19.png' />
+          </div>
+          <div></div>
+          <div></div>
+        </div>
+        {/* row2 */}
+
       </section>
 
     </>
