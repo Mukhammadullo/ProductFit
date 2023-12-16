@@ -9,6 +9,7 @@ function App() {
       {/*header  */}
       <header className='flex justify-between m-[30px]'>
 
+
         {/* left */}
         <div className='mobile:ml-[20%] sm:ml-0'>
           <img src='src/assets/Logo.svg' />
@@ -55,23 +56,23 @@ function App() {
 
       {/* section5 */}
       <section className='m-[5%]   sm:flex justify-between'>
-        <div className='shadow-xl rounded-[14px]  mobile:w-[90%] mobile:h-[50vh] w-[18%] h-[35vh] flex flex-col justify-center items-center'>
+        <div className='shadow-xl rounded-[14px]  m-[10px] mobile:w-[90%] mobile:h-[50vh] w-[18%] h-[35vh] flex flex-col justify-center items-center'>
           <img src='src/assets/интервью.svg' />
           <p>Проведём интервью</p>
         </div>
-        <div className='shadow-xl rounded-[14px]  mobile:w-[90%] mobile:h-[50vh] w-[18%] h-[35vh] flex flex-col justify-center items-center'>
+        <div className='shadow-xl rounded-[14px]  m-[10px] mobile:w-[90%] mobile:h-[50vh] w-[18%] h-[35vh] flex flex-col justify-center items-center'>
           <img src='src/assets/план.svg' />
           <p >Составим план</p>
         </div>
-        <div className='shadow-xl rounded-[14px]  mobile:w-[90%] mobile:h-[50vh] w-[18%] h-[35vh] flex flex-col justify-center items-center'>
+        <div className='shadow-xl rounded-[14px]  m-[10px] mobile:w-[90%] mobile:h-[50vh] w-[18%] h-[35vh] flex flex-col justify-center items-center'>
           <img src='src/assets/Команда.svg' />
           <p>Соберём команду</p>
         </div>
-        <div className='shadow-xl rounded-[14px]  mobile:w-[90%] mobile:h-[50vh] w-[18%] h-[35vh] flex flex-col justify-center items-center'>
+        <div className='shadow-xl rounded-[14px] m-[10px] mobile:w-[90%] mobile:h-[50vh] w-[18%] h-[35vh] flex flex-col justify-center items-center'>
           <img src='src/assets/продукт.svg' />
           <p>Разработаем продукт</p>
         </div>
-        <div className='shadow-xl rounded-[4px]  mobile:w-[90%] mobile:h-[50vh] w-[18%] h-[35vh] flex flex-col justify-center items-center'>
+        <div className='shadow-xl rounded-[4px] m-[10px] mobile:w-[90%] mobile:h-[50vh] w-[18%] h-[35vh] flex flex-col justify-center items-center'>
           <img src='src/assets/метрика.svg' />
           <p>Улучшим метрики</p>
         </div>
@@ -227,6 +228,41 @@ function App() {
 
       </section>
 
+
+
+      {/* footer */}
+      <footer className='m-[3%] flex justify-evenly items-center'>
+        {/* left */}
+        <div className='mobile:ml-[20%] sm:ml-0'>
+          <img src='src/assets/Logo.svg' />
+        </div>
+
+        {/* right */}
+        <div className='mobile:hidden sm:flex w-[50%] justify-between '>
+          <img className=' w-[50px]' src='src/assets/svg-editor-image-7.svg' />
+          <img className=' w-[50px]' src='src/assets/svg-editor-image-6.svg' />
+          
+          <div className='flex items-center'>
+            <img src='src/assets/Group.svg' />
+            <p>+7 800 301-79-27</p>
+
+          </div>
+
+          {/* <button className='w-[180px] h-[50px] rounded-[12px] text-[white] bg-[#F05670]'>НАЧАТЬ ПРОЕКТ</button> */}
+
+          <p className='m-[20px] text-[#3C3C3C]'>
+            Индивидуальный предприниматель <br />
+            Степанов Георгий Константинович <br />
+            Адрес: г. Обнинск, ул. Белкинская. 19, <br />
+            136 ОГРНИП 318402700019269 ИНН <br />
+            402571298900 Банк МОСКОВСКИЙ ФИЛИАЛ <br />
+            АО КБ "МОДУЛЬБАНК" <br />
+            БИК 044525092 К/c 30101810645250000092<br />
+            Счет 40802810970010085488
+          </p>
+
+        </div>
+      </footer>
 
     </>
   )
