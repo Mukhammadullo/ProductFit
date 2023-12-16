@@ -27,6 +27,26 @@ function App() {
 
       </header>
 
+      {/* sectino1 */}
+      <section className='m-[5%] sm:flex  sm:justify-between'>
+        {/* left */}
+        <div>
+          <h1 className='text-[#1E959B] font-bold text-[32px] m-[10px]'>Разработка <br />
+            IT‑продуктов</h1>
+
+          <p className='text-[#3C3C3C] font-medium m-[10px]'>Разработаем проект с нуля, <br />
+            доработаем текущий проект или усилим вашу <br />
+            ИТ-команду лучшими разработчиками на рынке</p>
+          <button className='w-[220px] h-[50px] rounded-[12px] m-[10px] text-[white] bg-[#F05670]'>НАЧАТЬ НОВЫЙ ПРОЕКТ</button>
+        </div>
+
+        {/* right */}
+
+        <div>
+          <img src='src/assets/photo_2023-12-16_07-36-34.jpg' />
+        </div>
+      </section>
+
     </>
   )
 }
