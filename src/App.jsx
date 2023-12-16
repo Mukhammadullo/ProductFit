@@ -200,7 +200,19 @@ function App() {
 
         {/* row2 */}
 
+        <div >
+          <div className=' sm:flex justify-between'>
+            <Card1 img={'src/assets/Page-1.png'} title={'Ecommerce'} />
+            <Card1 img={'src/assets/Слой 2.png'} title={'Ecommerce'} />
+            <Card1 img={'src/assets/Group.png'} title={'Ecommerce'} />
+            <Card1 img={'src/assets/Group 185.png'} title={'Ecommerce'} />
+          </div>
+        </div>
+
       </section>
+
+
+      {/* section9 */}
 
     </>
   )
