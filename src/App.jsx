@@ -53,7 +53,7 @@ function App() {
       </section>
 
       {/* section5 */}
-      <section className='flex m-[5%] justify-between mobile:flex-col'>
+      <section className='m-[5%]  mobile:flex-colm sm:flex justify-between'>
         <div className='shadow-xl rounded-[14px]  mobile:w-[90%] mobile:h-[50vh] w-[18%] h-[35vh] flex flex-col justify-center items-center'>
           <img src='src/assets/интервью.svg' />
           <p>Проведём интервью</p>
@@ -75,6 +75,8 @@ function App() {
           <p>Улучшим метрики</p>
         </div>
       </section>
+
+      
 
     </>
   )
