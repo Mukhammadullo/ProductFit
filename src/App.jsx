@@ -167,6 +167,22 @@ function App() {
       </section>
 
 
+      {/* section8 */}
+      <section className='m-[8%] sm:flex justify-between items-center'>
+        {/* left */}
+        <div>
+          <p className='text-[18px] font-bold  m-[10px] text-red-500'>09 Августа 2021</p>
+          <h2 className='sm:text-[28px] m-[10px] font-bold text-[#1E959B]'>Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit, sed do <br /> eiusmod tempor incididunt ut <br /> labore et dolore magna aliquax</h2>
+        </div>
+
+        {/* right */}
+        <div>
+          <img src='src/assets/3.jpg' />
+        </div>
+
+      </section>
+
+
 
     </>
   )
